@@ -65,12 +65,9 @@ with open("naver_exchange.csv",'w',encoding = "utf-8",newline = "") as f:
         csv_writer.writerow(row)
 ```
 
-`<태그이름 속성명 ="속성 값"></태그이름>`
-`<태그이름 속성명 ="속성 값" 속성명2="속성 값"></태그이름>`
-
 #### 3-2. 빗썸을 크롤링해 각종 코인의 정보를 csv파일로 저장해보자
 ```python
-	import requests
+import requests
 import csv
 from bs4 import BeautifulSoup
 
